@@ -185,6 +185,7 @@ main {
 .footer-content {
   width: 900px;
   margin: 0px auto;
+  text-align: justify;
 }
 
 .unsubscribe {
@@ -194,6 +195,7 @@ main {
 
 .unsubscribe a {
   color: #333;
+  font-weight: bolder;
 }
 .unsubscribe a:hover {
   text-decoration: underline;
@@ -206,6 +208,7 @@ main {
 }
 
 .footer-links ul li a {
-  font-size: 12px;
+  font-size: 14px;
   color: #333;
+  font-weight: bolder;
 }
