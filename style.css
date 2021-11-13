@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   color: #333;
   line-height: 25px;
+  overflow-x: hidden;
 }
 
 h1,
@@ -18,6 +19,7 @@ h2,
 h3 {
   font-family: "Times New Roman", Times, serif;
   color: black;
+  margin-bottom: 0.4em;
 }
 
 ul {
@@ -46,7 +48,7 @@ img {
 }
 
 .header-wrapper {
-  margin: 0 10%;
+  /* margin: 0 10%; */
 }
 
 /* Logo */
@@ -89,7 +91,7 @@ img {
 
 .nav-card {
   margin-top: 50px;
-  width: 400px;
+  width: 100%;
   height: 400px;
   text-align: center;
   text-transform: uppercase;
@@ -128,6 +130,8 @@ main {
 
 .articles-wrapper {
   display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .article {
@@ -257,5 +261,17 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    background-color: blue;
   }
 }
